@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/healthclub/static/css/main.af5d8ed7.css",
+    "main.js": "/healthclub/static/js/main.9b2df943.js",
+    "static/js/787.79129817.chunk.js": "/healthclub/static/js/787.79129817.chunk.js",
+    "index.html": "/healthclub/index.html",
+    "main.af5d8ed7.css.map": "/healthclub/static/css/main.af5d8ed7.css.map",
+    "main.9b2df943.js.map": "/healthclub/static/js/main.9b2df943.js.map",
+    "787.79129817.chunk.js.map": "/healthclub/static/js/787.79129817.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af5d8ed7.css",
+    "static/js/main.9b2df943.js"
+  ]
+}
