@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/healthclub/static/css/main.af5d8ed7.css",
-    "main.js": "/healthclub/static/js/main.9b2df943.js",
+    "main.css": "/healthclub/static/css/main.a517436e.css",
+    "main.js": "/healthclub/static/js/main.4294feff.js",
     "static/js/787.79129817.chunk.js": "/healthclub/static/js/787.79129817.chunk.js",
+    "static/media/hero_image.png": "/healthclub/static/media/hero_image.e19ac0c6b1009c7280f5.png",
+    "static/media/t-image1.png": "/healthclub/static/media/t-image1.c16c2c261034cf78ee57.png",
+    "static/media/image1.png": "/healthclub/static/media/image1.1091417d32e491f0bbb6.png",
+    "static/media/image2.png": "/healthclub/static/media/image2.82da8b2725df896d8a8e.png",
+    "static/media/t-image3.jpg": "/healthclub/static/media/t-image3.3894413f7bf2b4f1fc54.jpg",
+    "static/media/image3.png": "/healthclub/static/media/image3.69484cb0ee7687a8c28b.png",
+    "static/media/image4.png": "/healthclub/static/media/image4.2c0d30b9ce1579eb1109.png",
+    "static/media/t-image2.jpg": "/healthclub/static/media/t-image2.f5d2e52e514c544dfffb.jpg",
+    "static/media/hero_image_back.png": "/healthclub/static/media/hero_image_back.9f54bfba33048f4ca688.png",
     "index.html": "/healthclub/index.html",
-    "main.af5d8ed7.css.map": "/healthclub/static/css/main.af5d8ed7.css.map",
-    "main.9b2df943.js.map": "/healthclub/static/js/main.9b2df943.js.map",
+    "main.a517436e.css.map": "/healthclub/static/css/main.a517436e.css.map",
+    "main.4294feff.js.map": "/healthclub/static/js/main.4294feff.js.map",
     "787.79129817.chunk.js.map": "/healthclub/static/js/787.79129817.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af5d8ed7.css",
-    "static/js/main.9b2df943.js"
+    "static/css/main.a517436e.css",
+    "static/js/main.4294feff.js"
   ]
 }
