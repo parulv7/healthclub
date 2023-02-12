@@ -1,4 +1,5 @@
 import React from 'react'
+import whitetick from '../../assets/whiteTick.png'
 import {plansData} from "../../data/plansData"
 import "./plan.css"
 const Plan = () => {
@@ -25,7 +26,7 @@ const Plan = () => {
               <div className='features'>
                 {plan.features.map((feature, i) =>(
                   <div className='feature' > 
-                  <img src='../../assets/whiteTick.png'/>
+                  <img src={whitetick}/>
                   <span key={i}>
                     {feature}
                   </span>

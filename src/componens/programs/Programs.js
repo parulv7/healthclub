@@ -1,5 +1,6 @@
 import React from 'react'
 import "./program.css"
+import right from '../../assets/rightArrow.png'
 import {programsData} from "../../data/programsData"
 const Programs = () => {
   return (
@@ -21,7 +22,7 @@ const Programs = () => {
         <span>{program.details} </span>
         <div className='join-now' > 
         <span>Join now</span>
-        <img src='../../assets/rightArrow.png'/>
+        <img src={right} alt=""/>
         </div>
         </div>
       )

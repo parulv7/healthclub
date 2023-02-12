@@ -1,6 +1,10 @@
 import React from 'react'
 import Header from "./Header.js"
 import "./hero.css"
+import hero11 from '../../assets/hero_image.png'
+import hero12 from '../../assets/hero_image_back.png'
+import cal from '../../assets/calories.png'
+import heart from '../../assets/heart.png'
 import {motion} from "framer-motion"
 import NumberCouter from "number-counter"
 const Hero = () => {
@@ -78,7 +82,7 @@ const Hero = () => {
     whileInView={{right: "4rem"}}
     transition={transition}
      className='heart-rate'>
-      <img src='../../assets/heart.png' alt=''/>
+      <img src={heart} alt=''/>
       <span>Heart Rate</span>
       <span>116 bpm</span>
     </motion.div>
@@ -86,12 +90,12 @@ const Hero = () => {
 
 {/* hero images */}
 
-<img src='../../assets/hero_image.png' className='hero-image'/>
+<img src={hero11} className='hero-image'/>
 <motion.img
  initial={{right: "11rem"}}
     whileInView={{right: "20rem"}}
     transition={transition}
- src='../../assets/hero_image_back.png' className='hero-image-back'/>
+ src={hero12} className='hero-image-back'/>
 
 {/* calories */}
 
@@ -100,7 +104,7 @@ const Hero = () => {
     whileInView={{right: "28rem"}}
     transition={transition}
  className='calories'>
-  <img src='../../assets/calories.png' alt=""/>
+  <img src={cal} alt=""/>
   <div>
   <span>Calories Burned</span> <span> 220 kcal</span>
  

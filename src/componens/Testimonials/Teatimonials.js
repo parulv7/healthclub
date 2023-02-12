@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import "./Teatimonials.css"
+import right from "../../assets/rightArrow.png"
+import left from "../../assets/leftArrow.png"
 import {testimonialsData} from "../../data/testimonialsData"
 import { motion } from 'framer-motion'
 const Teatimonials = () => {
@@ -52,6 +54,7 @@ key={selected}
         animate={{opacity: 1, x:100}}
         exit={{opacity: 0, x: -100 }}
         transition={transition}
+        
            src={testimonialsData[selected].image} alt=""/>
           
           
@@ -66,14 +69,14 @@ key={selected}
               selected===0?setSelected(tLength -1) :
               setSelected((prev)=> prev-1);
             }}
-            src='../../assets/leftArrow.png' alt=''/>
+            src={left} alt=''/>
             <img
              onClick={()=>{
               selected=== tLength -1 
               ? setSelected(0) :
               setSelected((prev)=> prev+1);
              }}
-             src='../../assets/rightArrow.png' alt=''/>
+             src={right} alt=''/>
           </div>
         </div>
     </div>

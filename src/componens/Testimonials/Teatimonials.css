@@ -36,7 +36,7 @@ line-height: 40px;
 }
 .right-t>img{
     position: relative;
-    width: 17rem;
+    width: 18rem;
     height: 20rem;
     /* object-fit: cover; */
     top: 2rem;
@@ -97,10 +97,10 @@ cursor: pointer;
     
     .right-t>img{
      position: relative;
-     width: 10rem;
+     width: 7rem;
      top: 0rem;
-     height: 12rem;
-/* margin-left: 2rem; */
+     height: 9rem;
+/* margin-l/eft: 2rem; *
 right: 2rem;
 /* display: none; */
     }
